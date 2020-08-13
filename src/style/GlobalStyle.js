@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     height: 100vh;
     overscroll-behavior: none;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     width: 100%;
   }
   #app {

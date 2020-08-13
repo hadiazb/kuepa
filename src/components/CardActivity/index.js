@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Box, SubBox, Content } from './style';
+import { Container, Box, SubBox, Content, Title } from './style';
 import PhoneIcon from '@material-ui/icons/Phone';
 import MessageIcon from '@material-ui/icons/Message';
 
@@ -12,15 +12,15 @@ export const CardActivity = () => {
 				</SubBox>
 			</Box>
 			<Content>
-				<h5>Leads Primer contacto</h5>
+				<Title>Leads Primer contacto</Title>
 				<ul>
 					<li>
-						<PhoneIcon />
-						<MessageIcon />
+						<PhoneIcon fontSize='small' />
+						<MessageIcon fontSize='small' />
 					</li>
 					<li>
-						<PhoneIcon />
-						<MessageIcon />
+						<PhoneIcon fontSize='small' />
+						<MessageIcon fontSize='small' />
 					</li>
 				</ul>
 			</Content>

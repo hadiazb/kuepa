@@ -14,4 +14,12 @@ export const Container = styled.div`
   border-bottom-left-radius: 30px;
   background-color: #033549 ;
   overflow-y: scroll;
+  &::-webkit-scrollbar {
+    width: 4px;
+		background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+		background-color: rgba(0, 0, 0, .7);
+    border-radius: 2px;
+  }
 `;
