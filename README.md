@@ -16,10 +16,9 @@ Dicho proyecto se desarrollo empleando tecnologias modernas y cumpliendo con los
 - `npm install`, esto te permite instalar paquetes y utilidades necesarias.
 - `npm run build`, para optimizar el proyecto antes de hacer deploy.
 - `npm start` para dar inicio de proyecto. Este es el comando para inicializar el proyecto en modo local
-- Abrir el navegador  con la dirección [http://localhost:3000](http://localhost:3000)
+- Abrir el navegador con la dirección [http://localhost:3000](http://localhost:3000)
 - Prueba el producto y disfruta de este, se acepta feedback.
-
 
 ## Liga de producción en Vercel
 
-- hkfhs
+- [https://kuepa.hadiazb.vercel.app/](https://kuepa.hadiazb.vercel.app/)
