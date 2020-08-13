@@ -1,19 +1,19 @@
 import React from 'react';
-import { Container, Title, List } from './style';
+import { Container, Title, List, Text } from './style';
 
-export const StudentCar = () => {
+export const StudentCar = (props) => {
+	const { socialNetwork, name, username } = props;
 	return (
 		<Container>
 			<Title>
-				<h6>FACEBOOK</h6>
+				<h6>{socialNetwork}</h6>
 			</Title>
 			<List>
 				<li>
-					<h6>Name</h6>
+					<Text>{name}</Text>
 				</li>
 				<li>
-					{' '}
-					<h6>Username</h6>{' '}
+					<Text>{username}</Text>
 				</li>
 			</List>
 		</Container>

@@ -26,4 +26,5 @@ export const Title = styled.div`
 	padding-left: 20px;
 	font-size: 1.5em;
 	border-bottom: 1px solid black;
+	background-color: rgb(237,246,236);
 `;

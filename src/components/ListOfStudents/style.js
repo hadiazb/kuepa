@@ -23,3 +23,12 @@ export const Container = styled.div`
     border-radius: 2px;
   }
 `;
+
+export const List = styled.ul`
+  list-style: none;
+`;
+
+export const Item = styled.li`
+  margin: 10px 0;
+  border: 1px solid transparent;
+`;

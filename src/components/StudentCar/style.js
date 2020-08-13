@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-	width: 70px;
+	width: 80px;
 	height: 50px;
   margin: 15px 10px;
   color: #ffffff;
@@ -31,4 +31,8 @@ export const List = styled.ul`
   border-left: 1px solid rgba(255, 255, 255, .2);
   border-right: 1px solid rgba(255, 255, 255, .2);
   border-bottom: 1px solid rgba(255, 255, 255, .2);
+`;
+
+export const Text = styled.h6`
+  font-size: .5em;
 `;
