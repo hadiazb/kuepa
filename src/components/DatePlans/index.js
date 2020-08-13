@@ -1,5 +1,6 @@
 import React from 'react';
-import { Titles, Objectives } from './style';
+import { Titles, Objectives, Container } from './style';
+import { CardActivity } from '../CardActivity/index';
 
 export const DatePlans = () => {
 	return (
@@ -12,6 +13,11 @@ export const DatePlans = () => {
 					<h6>Ir a la gestion de llamadas</h6>
 				</li>
 			</Titles>
+			<Container>
+				<CardActivity />
+				<CardActivity />
+				<CardActivity />
+			</Container>
 		</Objectives>
 	);
 };

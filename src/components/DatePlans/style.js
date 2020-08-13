@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Titles = styled.div`
-	height: 50px;
+	height: 40px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -9,8 +9,14 @@ export const Titles = styled.div`
 `;
 
 export const Objectives = styled.div`
-	border: 1px solid blue;
 	width: 50%;
-	height: 270px;
+	height: 290px;
 	margin-left: 10px;
+`;
+
+export const Container = styled.div`
+	height: 250px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 `;
