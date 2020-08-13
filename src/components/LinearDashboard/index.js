@@ -9,7 +9,8 @@ const useStyles = makeStyles({
 	},
 });
 
-export const LinearDeterminate = () => {
+export const LinearDeterminate = (props) => {
+	const { value, title } = props;
 	const classes = useStyles();
 	const [progress, setProgress] = useState(0);
 
@@ -33,13 +34,16 @@ export const LinearDeterminate = () => {
 		<div className={classes.root}>
 			<Container>
 				<li>
-					<h6>Leads Obtenidos</h6>
+					<h6>{title ? title : 'Sin title'}</h6>
 				</li>
 				<li>
-					<h6>80/100</h6>
+					<h6>{value ? value : 50}/100</h6>
 				</li>
 			</Container>
-			<LinearProgress variant='determinate' value={80} />
+			<LinearProgress
+				variant='determinate'
+				value={value ? value : 50}
+			/>
 		</div>
 	);
 };
